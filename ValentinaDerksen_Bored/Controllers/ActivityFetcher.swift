@@ -1,4 +1,7 @@
-//
+// Student ID: 153803184
+// Student name: Valentina Derksen
+// https://github.com/vderksen/iOS_Bored
+
 //  ActivityFetcher.swift
 //  ValentinaDerksen_Bored
 //

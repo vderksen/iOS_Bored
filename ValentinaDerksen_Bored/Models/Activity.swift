@@ -1,6 +1,6 @@
 // Student ID: 153803184
 // Student name: Valentina Derksen
-// https://github.com/vderksen/iOS_MyOrder
+// https://github.com/vderksen/iOS_Bored
 
 //  Activity.swift
 //  ValentinaDerksen_Bored

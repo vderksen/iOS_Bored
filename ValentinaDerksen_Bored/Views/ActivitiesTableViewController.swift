@@ -1,4 +1,7 @@
-//
+// Student ID: 153803184
+// Student name: Valentina Derksen
+// https://github.com/vderksen/iOS_Bored
+
 //  ActivitiesTableViewController.swift
 //  ValentinaDerksen_Bored
 //
@@ -76,38 +79,4 @@ class ActivitiesTableViewController: UITableViewController {
         self.fetchAllActivities()
     }
        
-    /*
-    func edit(forRowAtIndexPath indexPath: IndexPath) -> UIContextualAction {
-           let action  = UIContextualAction(style: .normal, title: "Edit") { (action, view, escaping) in
-               // Perform Edit Action
-            self.displayCustomAlert(isNewTask: false, indexPath: indexPath, title: "Edit Order", message: "Change quantity")
-           }
-           return action
-       }
-    
-    private func displayCustomAlert(isNewTask : Bool, indexPath: IndexPath?, title: String, message: String){
-        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        if (indexPath != nil){
-            alert.addTextField{(textField: UITextField) in
-                textField.text = String(self.activityList[indexPath!.row].quantity)
-            }
-        }
-        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: {_ in
-            if let quantityText = alert.textFields?[0].text{
-                if (indexPath != nil){
-                    self.updateOrderInList(indexPath: indexPath!, quantity: quantityText)
-                }
-            }
-        }))
-        
-        self.present(alert, animated: true, completion: nil)
-        
-    }
-    
-    private func updateOrderInList(indexPath: IndexPath, quantity: String){
-        self.orderList[indexPath.row].quantity = Int32(quantity)!
-        self.dbHelper.updateOrder(updatedOrder: self.orderList[indexPath.row])
-        self.fetchAllOrders()
-    }*/
 }
