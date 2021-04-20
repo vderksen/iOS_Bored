@@ -35,7 +35,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzP-S6-Suf">
                                 <rect key="frame" x="60" y="339" width="294" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="FETCH ACTIVITY"/>
+                                <state key="normal" title="SHOW ACTIVITY"/>
                                 <connections>
                                     <action selector="newActivity" destination="BYZ-38-t0r" eventType="touchUpInside" id="xiL-4k-yro"/>
                                 </connections>
@@ -43,7 +43,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLw-fw-Nqc">
                                 <rect key="frame" x="60" y="599" width="294" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="SAVE ACTIVITY"/>
+                                <state key="normal" title="ADD TO FAVORITE"/>
                                 <connections>
                                     <action selector="saveActivity" destination="BYZ-38-t0r" eventType="touchUpInside" id="BkB-Fl-iat"/>
                                 </connections>
@@ -79,7 +79,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3n2-X2-2nu">
-                        <barButtonItem key="rightBarButtonItem" title="List of Saved Activities" id="y3X-8G-6TG">
+                        <barButtonItem key="rightBarButtonItem" title="Favorite Activities" id="y3X-8G-6TG">
                             <connections>
                                 <action selector="viewSavedActivitiesWith_sender:" destination="BYZ-38-t0r" id="tnW-M6-fhS"/>
                                 <segue destination="gjn-9a-on3" kind="show" identifier="segueAllActivities" id="hV5-8Z-bgz"/>

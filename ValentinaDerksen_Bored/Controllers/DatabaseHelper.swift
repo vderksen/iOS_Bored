@@ -106,7 +106,7 @@ class DatabaseHelper {
     // retrieve all Saved Activities
     func getAllActivities() -> [ActivityDB]?{
         let fetchRequest = NSFetchRequest<ActivityDB>(entityName: ENTITY_NAME)
-        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "name", ascending: false)]
+        fetchRequest.sortDescriptors = [NSSortDescriptor.init(key: "name", ascending: true)]
         
         do{
             // execute request
