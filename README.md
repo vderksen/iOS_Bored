@@ -1,5 +1,5 @@
 # iOS_Bored
-The iOS_Bored App displays random activities using Bored API (https://www.boredapi.com/). </br></br>
+The iOS_Bored App displays random activities using Bored API (https://www.boredapi.com/). </br>
 
 The user can save activities he likes in his favorite list. Core Data is used to save the application’s permanent data. </br>
 All saved activities are sorted in ascending order. Also, the user can delete activities from the favorite list.
